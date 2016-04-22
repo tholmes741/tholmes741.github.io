@@ -1780,6 +1780,44 @@
 			padding-left: 0.25em;
 		}
 
+		ul.icons-grid {
+			list-style: none;
+			padding: 0;
+			position: relative;
+		}
+
+			ul.icons-grid li {
+				display: block;
+				float: left;
+				padding: 3em 0;
+				width: 20%;
+			}
+
+				ul.icons-grid li h3 {
+					margin: 0;
+				}
+
+				ul.icons-grid li {
+					text-align: center;
+
+				}
+
+				ul.icons-grid li:nth-child(2n + 3):before {
+					/*background: #dddddd;*/
+					content: '';
+					display: block;
+					height: 2px;
+					margin-top: -3em;
+					position: absolute;
+					width: 100%;
+				}
+
+			ul.icons-grid:after {
+				clear: both;
+				content: '';
+				display: block;
+			}
+
 /* Form */
 
 	form label {

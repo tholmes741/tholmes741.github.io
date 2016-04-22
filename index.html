@@ -46,6 +46,7 @@
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="icon fa-check-circle-o">Skills and Technologies</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
@@ -118,41 +119,118 @@
 						</div>
 					</section>
 
-					<!-- Portfolio -->
-
-					<section id="portfolio" class="three">
+					<!-- skills and techologies -->
+					<section id="skills" class="three">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Skills and Technologies</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-								egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-								Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-								fusce hendrerit lacus ridiculus.</p>
+
+
+								<ul class="icons-grid">
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/ruby_yq2xc1.png" />
+										<h3>Ruby</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/rails_gq7fwh.png" />
+										<h3>Rails</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/javascript_kefcwk.png" />
+										<h3>Javascript</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/react_xysmz7.png" />
+										<h3>React</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/postgresql_xoiayb.png" />
+										<h3>SQL</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/flux-react2_ltstgb.png" />
+										<h3>Flux</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/jquery_kgddqb.png" />
+										<h3>jQuery</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/HTML5_lzp1pg.png" />
+										<h3>HTML5</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/css_htnxgo.png" />
+										<h3>CSS3</h3>
+									</li>
+									<li>
+										<img src="http://res.cloudinary.com/tholmes741/image/upload/w_80,h_80/git_logo_jlkzq1" />
+										<h3>git</h3>
+									</li>
+								</ul>
+
+
+							</div>
+						</section>
+
+					<!-- Portfolio -->
+
+					<section id="portfolio" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Projects</h2>
+							</header>
+
 
 								<div class="row">
 									<div class="4u 12u$(mobile)">
 										<article class="item">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+											<a class="image fit" href="https://www.youtube.com/watch?v=lQ1fWxBlRsQ"><img src="http://res.cloudinary.com/tholmes741/image/upload/w_480,h_280/moodly_screen_shot_tho1ha.png" alt="" /></a>
 											<header>
-												<h3>Ipsum Feugiat</h3>
+												<h3>Moodly</h3>
+												<h6>Personal emotions tracking web app</h6>
 											</header>
+											<p>
+												Winner of the Microsoft Challenge Grand Prize at the Developer Week 2016 Hackathon.
+												Uses Microsoft’s Cortana analytics API to quantify emotions and the Google Charts library to visualize the data that updates in real time.
+												Implements a facial recognition authentication system that improves through machine learning by compiling pictures of the user while logging in.
+											</p>
+
+											<a href="https://www.youtube.com/watch?v=lQ1fWxBlRsQ">Demo</a> <a href="https://github.com/KyleBWilson49/Picckly" > <span class="label">Github</span></a>
 										</article>
 										<article class="item">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+
+											<a class="image fit" href="http://www.audiowatervapor.xyz"><img src="http://res.cloudinary.com/tholmes741/image/upload/w_480,h_280/Screen_Shot_2016-01-08_at_4.52.20_PM_fhlcvq.png" alt="" /></a>
 											<header>
-												<h3>Rhoncus Semper</h3>
+												<h3>Audio Water Vapor</h3>
+												<h6>Music streaming web app, inspired by Sound Cloud.</h6>
 											</header>
+											<p>
+												Built as a single-page application to allow music to play unimpeded by navigating throughout the site.
+												Uses custom-built authentication system, hashing and salting passwords with Bcrypt.
+												Achieves better performance by utilizing Cloudinary to store audio files and to cache different sizes of images.
+											</p>
+
+											<a href="http://www.audiowatervapor.xyz">Live</a> <a href="https://github.com/tholmes741/AudioWaterVapor" > <span class="label">Github</span></a>
 										</article>
 									</div>
+
 									<div class="4u 12u$(mobile)">
 										<article class="item">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+											<a class="image fit" href="https://github.com/tholmes741/Frameworks"><img src="http://res.cloudinary.com/tholmes741/image/upload/w_480,h_280/Screen_Shot_2016-01-18_at_1.10.25_PM_a8auzh.png" alt="" /></a>
 											<header>
-												<h3>Magna Nullam</h3>
+												<h3>Frameworks</h3>
+												<h6>MVC framework written in Ruby/ DOM manipulation through DSL.</h6>
 											</header>
+											<p>
+												Uses metaprogramming to create a ControllerBase and custom router to serve http requests.
+												Applied DOM Api as the basis for jQuery methods.
+											</p>
+											<a href="https://github.com/tholmes741/Frameworks"><span class="label">Github</span></a>
 										</article>
 										<article class="item">
 											<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
