@@ -163,6 +163,10 @@
 
 	}
 
+
+
+
+
 	@media screen and (max-width: 960px) {
 
 		.container.\31 25\25 {
@@ -1689,6 +1693,9 @@
 		article > .container, article:last-child {
 			margin-bottom: 0;
 		}
+		article {
+
+		}
 
 		.row > section, .row > article {
 			margin-bottom: 0;
@@ -1709,10 +1716,11 @@
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+
 		}
 
 			.image.avatar48 img {
+				margin-bottom: 20px;
 				width: 48px;
 				height: 48px;
 			}
