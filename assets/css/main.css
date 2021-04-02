@@ -1799,7 +1799,7 @@
 
 			ul.icons-grid li {
 				flex: 1 1 20%;
-				padding: 3em 0;
+				padding: 2em 1em;
 			}
 
 				ul.icons-grid li h3 {
