@@ -1791,16 +1791,15 @@
 		ul.icons-grid {
             display: flex;
             flex-flow: row wrap;
+            justify-content: space-around;
 			list-style: none;
 			padding: 0;
 			position: relative;
 		}
 
 			ul.icons-grid li {
-				display: block;
-				float: left;
+				flex: 1 1 20%;
 				padding: 3em 0;
-				width: 20%;
 			}
 
 				ul.icons-grid li h3 {
